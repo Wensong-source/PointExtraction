@@ -1,0 +1,13 @@
+debug/comparisondata.o
+debug/data.o
+debug/datashow.o
+debug/main.o
+debug/mainwindow.o
+debug/qcustomplot.o
+debug/shearmodulusshow.o
+debug/smoothcurvegenerator.o
+debug/moc_comparisondata.o
+debug/moc_datashow.o
+debug/moc_mainwindow.o
+debug/moc_qcustomplot.o
+debug/moc_shearmodulusshow.o

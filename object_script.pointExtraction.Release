@@ -1,0 +1,13 @@
+release/comparisondata.o
+release/data.o
+release/datashow.o
+release/main.o
+release/mainwindow.o
+release/qcustomplot.o
+release/shearmodulusshow.o
+release/smoothcurvegenerator.o
+release/moc_comparisondata.o
+release/moc_datashow.o
+release/moc_mainwindow.o
+release/moc_qcustomplot.o
+release/moc_shearmodulusshow.o

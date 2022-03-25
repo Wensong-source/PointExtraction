@@ -1,0 +1,2 @@
+#include "smoothcurvegenerator.h"
+

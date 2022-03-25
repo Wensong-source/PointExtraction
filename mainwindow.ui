@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0" colspan="2">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="2">
+        <widget class="QCustomPlot" name="plot_Pd" native="true"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QCustomPlot" name="plot_ela" native="true"/>
+       </item>
+       <item row="0" column="0">
+        <widget class="QCustomPlot" name="plot_Damage" native="true"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>输入数据</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="2">
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>宋体</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>01</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="comboBox">
+         <property name="maximumSize">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>宋体</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <item>
+          <property name="text">
+           <string>SP</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>AM</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="maximumSize">
+          <size>
+           <width>70</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>宋体</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>试棒编号</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QRadioButton" name="radioButton_jieti">
+         <property name="text">
+          <string>阶梯加载</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1" colspan="2">
+        <widget class="QRadioButton" name="radioButton_hengfu">
+         <property name="text">
+          <string>恒幅加载</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="minimumSize">
+          <size>
+           <width>140</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>140</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>宋体</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>载入数据 DB</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="minimumSize">
+          <size>
+           <width>140</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>宋体</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>载入数据 text</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="minimumSize">
+          <size>
+           <width>120</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>宋体</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>对比数据</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
